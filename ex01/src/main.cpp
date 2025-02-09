@@ -17,7 +17,7 @@ int main() {
     Data data = {42, 3.14, "Test"};
 
 		//Print original data
-    std::cout << "Converted data values: " << data.value1 << ", " << data.value2 << ", " << data.name << std::endl;
+    std::cout << "Original data values: " << data.value1 << ", " << data.value2 << ", " << data.name << std::endl;
 
 
     // Print the original address of the Data object

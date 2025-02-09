@@ -1,6 +1,6 @@
 #include "../inc/Base.hpp"
-#include "generate.cpp"
-#include "identify.cpp"
+#include "../inc/generate.hpp"
+#include "../inc/identify.hpp"
 #include <iostream>
 
 int main() {

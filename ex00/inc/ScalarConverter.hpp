@@ -9,18 +9,15 @@
 /*   Updated: 2025/02/02 18:17:09 by jenavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#ifndef SCALARCONVERTER_HPP
-# define SCALARCONVERTER_HPP
+#pragma once
 # include <iostream>
 # include <string>
-#pragma once
 # include <limits>
 # include <cmath>
 # include <iomanip>
 # include <sstream>
 
-static class ScalarConverter
+class ScalarConverter
 {
 		public:
 				static void convert(std::string str);
@@ -48,8 +45,6 @@ static class ScalarConverter
 				static void PrintWhenIsInfOrNan(std::string str);
 				static void PrintWhenIsInffOrNanf(std::string str);
 				static bool IsInfOrNan( std::string str);
-        static bool IsInffOrNanf( std::string str);
+        		static bool IsInffOrNanf( std::string str);
 				
-} ScalarCoverter;
-
-#endif
+};

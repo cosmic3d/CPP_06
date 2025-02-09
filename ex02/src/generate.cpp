@@ -1,9 +1,4 @@
-#include "../inc/Base.hpp"
-#include "../inc/A.hpp"
-#include "../inc/B.hpp"
-#include "../inc/C.hpp"
-#include <cstdlib> // For rand() and srand()
-#include <ctime>   // For time()
+#include "../inc/generate.hpp"
 
 Base* generate(void) {
 		// Seed the random number generator
